@@ -67,8 +67,8 @@
 
 6.	Assinale a opção que representa a tag HTML 5 responsável por reproduzir arquivos de contenham som ou música:
 
-- [ ] <phonic>
-- [ ] <img>
-- [ ] <sound>
-- [ ] <music>
+- [ ] **<phonic>**
+- [ ] **<img>**
+- [ ] **<sound>**
+- [ ] **<music>**
 - [x] **<**audio**>**
