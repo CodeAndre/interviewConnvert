@@ -57,8 +57,18 @@
     document.write("Tamanho: " + minhaVariavel.size);
 ```
 
-- [ ] 
-- [ ] 
-- [ ] 
-- [ ] 
-- [x] 
+- [ ] Trinta é 2010 e não 4010. Tamanho: 3
+- [x] **Trinta é 30 e não 50. Tamanho: 3**
+- [ ] Trinta é 2010 e não 40 10. Tamanho: undefined
+- [ ] Trinta é 30 e não 50. Tamanho: undefined
+
+
+# Questão 6 
+
+6.	Assinale a opção que representa a tag HTML 5 responsável por reproduzir arquivos de contenham som ou música:
+
+- [ ] <phonic>
+- [ ] <img>
+- [ ] <sound>
+- [ ] <music>
+- [x] **<**audio**>**
