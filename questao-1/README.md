@@ -5,6 +5,6 @@
 
 - [ ] Algum cristal não é corpo sólido <br>
 - [ ] Todo corpo sólido é cristal <br>
-- [x] Todo cristal é corpo sólido <br>
+- [x] **Todo cristal é corpo sólido** <br>
 - [ ] Nenhum corpo sólido é cristal <br>
 - [ ] Nenhum cristal é corpo sólido
