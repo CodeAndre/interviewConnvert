@@ -1,0 +1,92 @@
+
+<div class="container">
+
+   <div class="container_principal">
+       <h2 class="films">Conheça nossos Filmes</h2>
+       
+       <div class="container_poster" *ngFor="let filme of filmes">
+           <div
+           class="container_img1"
+           *ngIf="filme.nome === 'Thor: Ragnarok'">
+               <div class="imgs">
+                   <img src="../assets/thor_ragnarok.jpg" alt="Filme 1">
+               </div>
+               <div class="about">
+                    <span class="style name">
+                        {{filme.nome}},
+                        {{filme.ano}}
+                    </span> <br>
+                   <span class="style">
+                       Diretor: 
+                   </span> 
+                   {{filme.diretor}} <br>
+                   <span class="style">
+                       Gênero:
+                    </span> {{filme.genero}} <br>
+                   <div class="descricao">
+                       <span class="sobre_">Sobre o Filme: </span>
+                       {{filme.descricao}}
+                   </div>
+               </div>
+           </div>
+
+           <div c class="container_img1"  *ngIf="filme.nome === 'Avengers: Infinity War'">
+               <div class="imgs">
+                   <img src="../assets/avengers.jpg" alt="Filme 2">
+               </div>
+       
+               <div class="about">
+                    <span class="style name">
+                        {{filme.nome}},
+                        {{filme.ano}}
+                    </span> <br>
+                    <span class="style">Diretor:</span> {{filme.diretor}} <br>
+                    <span class="style">Gênero:</span> {{filme.genero}} <br>
+                    <div class="descricao">
+                        <span class="sobre_">Sobre o Filme: </span>
+                        {{filme.descricao}}
+                    </div>
+                </div>
+           </div>
+
+           <div c class="container_img1"  *ngIf="filme.nome === 'Spider-Man: Far From Home'">
+               <div class="imgs">
+                   <img src="../assets/spider-man.jpg" alt="">
+               </div>
+       
+               <div class="about">
+                    <span class="style name">
+                        {{filme.nome}},
+                        {{filme.ano}}</span> <br>
+                    <span class="style">Diretor:</span> {{filme.diretor}} <br>
+                    <span class="style">Gênero:</span> {{filme.genero}} <br>
+                    <div class="descricao">
+                        <span class="sobre_">Sobre o Filme: </span>
+                        {{filme.descricao}}
+                    </div>
+                </div>
+           </div>
+       </div>
+
+   </div>
+    
+    <table class="table_1">
+        <thead class="thead_1">
+            <td>Nome</td>
+            <td>Ano</td>
+            <td>Diretor</td>
+            <td>Gênero</td>
+        </thead>
+    
+        <tbody class="tbody_1">
+            <tr *ngFor="let filme of filmes">
+                <td class="td_1">{{filme.nome}}</td>
+                <td class="td_1">{{filme.ano}}</td>
+                <td class="td_1">{{filme.diretor}}</td>
+                <td class="td_1">{{filme.genero}}</td>
+            </tr>
+    
+        </tbody>
+    </table>
+</div>
+

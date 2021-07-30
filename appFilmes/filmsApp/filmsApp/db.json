@@ -1,0 +1,29 @@
+{
+    "FILMES" :[
+        {
+            "nome": "Thor: Ragnarok",
+            "ano": 2017,
+            "diretor": "Taika Waititi",
+            "genero": "Fantasy/Sci-fi",
+            "descricao": "Aprisionado do outro lado do universo, o poderoso Thor se encontra em uma batalha mortal de gladiadores que o coloca contra o Hulk, seu ex-aliado e companheiro Vingador.",
+            "poster": "https://m.media-amazon.com/images/M/MV5BMjMyNDkzMzI1OF5BMl5BanBnXkFtZTgwODcxODg5MjI@._V1_.jpg"
+        },
+      {
+          "nome": "Avengers: Infinity War",
+          "ano": 2018,
+          "diretor": "Anthony Russo, Joe Russo",
+          "genero": "Sci-fi/Action",
+          "descricao": "Homem de Ferro, Thor, o Hulk e o resto dos Vingadores se unem para lutar contra seu inimigo mais poderoso - o maligno Thanos. Em uma missão para coletar todas as seis Pedras do Infinito, Thanos planeja usar os artefatos para impor sua vontade distorcida à realidade.",
+          "poster": "https://upload.wikimedia.org/wikipedia/pt/thumb/9/90/Avengers_Infinity_War.jpg/250px-Avengers_Infinity_War.jpg"
+      },
+      {
+          "nome": "Spider-Man: Far From Home",
+          "ano": 2019,
+          "diretor": "Jon Watts",
+          "genero": "Fantasy/Sci-fi",
+          "descricao": "Após os eventos de Avengers: Endgame, o Homem-Aranha deve se preparar para enfrentar novas ameaças em um mundo que mudou para sempre.",
+          "poster": "https://vignette.wikia.nocookie.net/marvelcinematicuniverse/images/3/35/Official_FFH_US_Poster.jpg/revision/latest?cb=20190522171521"
+      }
+      
+  ]
+}
