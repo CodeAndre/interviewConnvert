@@ -1,3 +1,5 @@
+/*=====PRINCIPAL======*/
+
 .container {
     background-color: rgb(75, 50, 92);
     height: 1644px;
@@ -26,34 +28,6 @@
     align-items: center;
     margin-bottom: 2rem;
 }
-table tr {
-    counter-increment: row-num;
-
-}
-table tr td:first-child::before {
-    content: counter(row-num) ". ";
-}
-td {
-   padding: 12px;
-   border-left: 1px solid whitesmoke;
-   border-bottom: 1px solid black;
-}
-
-.table_1 {
-    width: 100%;
-    border: 3px solid rgb(27, 26, 27);
-}
-.thead_1 {
-    color: black;
-    font-weight: 700;
-    border-bottom: 2px solid whitesmoke;
-}
-.td_1 {
-    font-weight: 700;
-    color: rgb(222, 164, 230);
-}
-
-
 .about {
     height: 330px;
     width: 300px;
@@ -79,11 +53,44 @@ td {
     font-weight: bold;
     color: rgb(59, 20, 95);
 }
+
+
+/*=====TABELA======*/
+
+.table_1 {
+    width: 100%;
+    border: 3px solid rgb(27, 26, 27);
+}
+.thead_1 {
+    color: black;
+    font-weight: 700;
+    border-bottom: 2px solid whitesmoke;
+}
+.td_1 {
+    font-weight: 700;
+    color: rgb(222, 164, 230);
+}
+
+
+/*=====EDIÇÕES GLOBAIS======*/
+table tr {
+    counter-increment: row-num;
+
+}
+table tr td:first-child::before {
+    content: counter(row-num) ". ";
+}
+td {
+   padding: 12px;
+   border-left: 1px solid whitesmoke;
+   border-bottom: 1px solid black;
+}
 img {
     width: 250px;
     height: 330px;
 }
 
+/*=====RESPONSIVO======*/
 
 @media screen and (max-width: 778px) {
     .container_poster {
